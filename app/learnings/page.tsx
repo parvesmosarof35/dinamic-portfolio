@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { connectToDatabase } from "@/lib/db";
 import { Learning } from "@/models/Learning";
+
+export const dynamic = "force-dynamic";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { BookOpen, Search, ArrowRight, Code, Brain, Database, ShieldAlert, Cpu } from "lucide-react";

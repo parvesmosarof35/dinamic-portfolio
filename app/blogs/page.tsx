@@ -6,6 +6,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Search, Calendar, Tag, ArrowRight } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 interface BlogsPageProps {
   searchParams: Promise<{
     search?: string;
