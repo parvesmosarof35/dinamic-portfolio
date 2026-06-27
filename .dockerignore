@@ -1,0 +1,34 @@
+# Dependecies
+node_modules
+.pnp
+.pnp.*
+.yarn
+
+# Build outputs
+.next
+out
+build
+*.tsbuildinfo
+next-env.d.ts
+
+# Debug and Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment and secrets
+.env*
+*.pem
+
+# Configuration and version control
+.git
+.github
+.vercel
+.dockerignore
+Dockerfile
+README.md
+CLOUDINARY_*.env
+AGENTS.md
+CLAUDE.md
+pnpm-workspace.yaml
